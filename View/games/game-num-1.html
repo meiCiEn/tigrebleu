@@ -38,7 +38,7 @@
         <div class="page__inner d-flex">
             <div class="text-box">
                 <div d-flex>
-                    <h3>Chiffre : Niveau 1</h3>
+                    <h3>Chiffres : Niveau 1</h3>
                     <div id="game-wrapper">
                     </div>
 
