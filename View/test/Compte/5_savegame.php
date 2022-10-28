@@ -8,11 +8,12 @@
 </head>
 
 <body>
-    <form action="./6_savegameTraitement.php" method="POST">
-       <input type="text" name="UserID">
+    <form action="./View/test/Compte/6_savegameTraitement.php" method="POST">
+       <input type="text" name="UserID" >
         <input type="text" name="level">
         <input type="text" name="Succeed">
         <input type="text" name="category">
+        <input type="submit" value="submit">
 
 
     </form>
