@@ -191,7 +191,7 @@ function win(t)
 
 function nextLevel(){
 
-    var url = 'https://twitter.com';
+    var url = '';
 
     var s = window.open(url);
 
@@ -207,26 +207,19 @@ function nextLevel(){
 
 function dbUpdate(){
     
-    // //win/lose fetch : user, category, level
-    // fetch("http://fakestoreapi.com/products", { //api url
-    //     method: 'POST',
-    //     headers: {
-    //         'Content-Type': 'application/json'
-    //     },
-    //     body: JSON.stringify({
-    //         image: 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg' //what to add
-    //     })
-    // }).then(res => {
-    //     return res.json()
-    // })
-    // .then(data => console.log(data)) //?
-    // .catch(error => console.log('ERROR'))
-
-    // //fetch assets.json
-    // fetch("/students.json")
-    // .then(response => {
-    //    return response.json();
-    // })
-    // .then(jsondata => console.log(jsondata)); //then what?
-
+    fetch("./View/test/Compte/6_savegameTraitement.php", {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            level: 2,
+            Succeed: true,
+            category: 'chiffres'
+        })
+    }).then(res => {
+        return res.json()
+    })
+    .then(data => console.log(data))
+    .catch(error => console.log('ERROR'))
 }
