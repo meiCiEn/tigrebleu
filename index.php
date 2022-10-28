@@ -20,8 +20,9 @@
 
         <?php
 
-     include ("./View/1_login.php");
+    // include ("./View/1_login.php");
      //include ("./View/3_inscription.php");
+     include ("./View/test/Compte/5_savegame.php");
         ?>
 
     </main>
