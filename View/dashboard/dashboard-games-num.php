@@ -36,23 +36,23 @@
         <div class="page__inner d-flex">
             <div class="text-box">
                 <div>
-                    <h2 class="h2--lesson">Jouer : Les couleurs</h2>
+                    <h2 class="h2--lesson">Jouer : Les chiffres</h2>
                     <div>
                         <div class="d-flex">
                             <div class="niveau-img d-flex f-col">
-                                <img src="/Assets/images/deco/blue-splat.svg" alt="">
+                                <img src="/Assets/images/deco/zh1.svg" alt="1">
                             </div>
                             <h3 class="h3--lesson"><a href="#">Niveau 1</a></h3>
                         </div>
                         <div class="d-flex">
                             <div class="niveau-img d-flex f-col">
-                                <img src="/Assets/images/deco/green-splat.svg" alt="">
+                                <img src="/Assets/images/deco/zh60.svg" alt="60">
                             </div>
                             <h3 class="h3--lesson"><a href="#">Niveau 2</a></h3>
                         </div>
                         <div class="d-flex">
                             <div class="niveau-img d-flex f-col">
-                                <img src="/Assets/images/deco/rainbow-splat.svg" alt="">
+                                <img src="/Assets/images/deco/zh84.svg" alt="84">
                             </div>
                             <h3 class="h3--lesson"><a href="#">Niveau 3</a></h3>
                         </div>
