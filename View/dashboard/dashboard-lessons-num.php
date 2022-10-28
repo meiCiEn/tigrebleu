@@ -34,25 +34,31 @@
     <section class="section section--page">
         <div class="page__inner d-flex">
             <div class="text-box">
-                <h2 class="h2--lesson">Apprendre : Les couleurs</h2><div>
+                <h2 class="h2--lesson">Apprendre : Les chiffres</h2><div>
                     <div>
                         <div class="d-flex">
                             <div class="niveau-img d-flex f-col">
                                 <img src="/Assets/images/deco/fr1.svg" alt="">
                             </div>
-                            <h3 class="h3--lesson"><a href="#">Leçon 1 : Couleurs primaires</a></h3>
+                            <h3 class="h3--lesson"><a href="#">Leçon 1 : Chiffres 1 - 3</a></h3>
                         </div>
                         <div class="d-flex">
                             <div class="niveau-img d-flex f-col">
                                 <img src="/Assets/images/deco/fr50.svg" alt="">
                             </div>
-                            <h3 class="h3--lesson"><a href="#">Leçon 2 : Couleurs secondaires</a></h3>
+                            <h3 class="h3--lesson"><a href="#">Leçon 2 : Chiffres 1 - 10</a></h3>
                         </div>
                         <div class="d-flex">
                             <div class="niveau-img d-flex f-col">
                                 <img src="/Assets/images/deco/fr89.svg" alt="">
                             </div>
-                            <h3 class="h3--lesson"><a href="#">Leçon 3 : Autre couleurs</a></h3>
+                            <h3 class="h3--lesson"><a href="#">Chiffres 11 - 100</a></h3>
+                        </div>
+                        <div class="d-flex">
+                            <div class="niveau-img d-flex f-col">
+                                <img src="/Assets/images/deco/fr89.svg" alt="">
+                            </div>
+                            <h3 class="h3--lesson"><a href="#">Chiffres 11 - Opérateurs</a></h3>
                         </div>
 
                     </div>
