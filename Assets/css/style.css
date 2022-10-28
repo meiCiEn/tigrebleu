@@ -2,7 +2,7 @@
 :root {
     --red: #bb4430;
     --light-pink: #FCEEF4;
-    --light-blue: #B1D8EF;font-kerning: 
+    --light-blue: #B1D8EF;
   }
   
 
@@ -14,7 +14,8 @@
 /* font-family: 'Poppins', sans-serif; */
 
 body {
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif; 
+    overflow: hidden;
 }
 
 body, aside, section, header, footer {
@@ -22,8 +23,17 @@ body, aside, section, header, footer {
     display: block;
 }
 
+
 h1, h2, h3 {
     font-family: 'Luckiest Guy', cursive;
+}
+
+p{
+    font-family: 'Poppins', sans-serif; 
+}
+
+.lesson .h2--lesson{
+   margin-left: 30px;
 }
 
 a:hover, a:active {
@@ -77,7 +87,49 @@ h4 {
 .d-flex {
     display: flex;
 }
-
+/* Start Table */
+.table{
+    position: absolute;
+    left: 34%;
+    top: 83%;
+    width: 100%;
+    margin-top: 30px;
+}
+table {
+    border-collapse:collapse;
+    width:100%;
+    max-width:700px;
+    min-width:400px;
+    text-align:center;
+    top:80%;
+    }
+    
+    caption {
+    caption-side:bottom;
+    font-weight:bold;
+    font-style:italic;
+    margin:4px;
+    }
+    
+    table,th, td {
+    border: 1px solid #bb4430;
+    }
+    
+    th, td {
+    height: 24px;
+    padding:4px;
+    vertical-align:middle;
+    }
+    
+    th {
+    background-image:url(table-shaded.png);
+    }
+    
+    .rowtitle {
+    background: #9CF;
+    font-weight:bold;
+    }
+/* End Table */
 f-row {
     flex-direction: row;
 }
